@@ -2,8 +2,7 @@
 
 ## Overview
 
-* [My Awesome API](README.md)
+* [Developer Camp 2017](README.md)
 
-## Methods
 
-* [Defining Methods](methods.md)
+

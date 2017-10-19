@@ -1,3 +1,4 @@
-# My Awesome API
+# Developer Camp 2017 Hackathon Guide
 
-This file file serves as your book's preface, a great place to describe your book's content and ideas.
+![](/assets/dc-logo.png)
+
