@@ -22,9 +22,6 @@ cloudinary.url().imageTag("steve.jpg")
 {%- language name="JavaScript", type="javascript" -%}
 cl.imageTag('steve.jpg').toHtml();
 
-{%- language name="JavaScript", type="javascript" -%}
-cl.imageTag('steve.jpg').toHtml();
-
 {%- language name="JQuery", type="jquery" -%}
 $.cloudinary.image("steve.jpg")
 
