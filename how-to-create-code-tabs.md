@@ -41,5 +41,5 @@ cloudinary.Api.UrlImgUp.BuildImageTag("steve.jpg")
 MediaManager.get().url().generate("steve.jpg")
 
 {%- language name="iOS", type="ios" -%}
-cloudinary.createUrl().generate("sample.jpg")
+cloudinary.createUrl().generate("steve.jpg")
 {%- endcodetabs %}
