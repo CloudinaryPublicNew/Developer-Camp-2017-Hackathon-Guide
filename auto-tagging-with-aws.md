@@ -17,7 +17,6 @@ By
 * [Image Optimization](https://cloudinary.com/blog/tag/Image-optimization)
 
 
-
 ![Analyze and auto tag images with Amazon Rekognition](https://res.cloudinary.com/demo/image/upload/c_fill,w_770/dpr_2.0/Rekognition_tagging_blog.jpg)
 
 
