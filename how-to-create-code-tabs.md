@@ -26,10 +26,10 @@ cl.imageTag('steve.jpg').toHtml();
 $.cloudinary.image("steve.jpg")
 
 {%- language name="React", type="react" -%}
-<Image publicId="steve.jpg" ></Image>
+<Image publicId="steve.jpg"></Image>
 
 {%- language name="Angular", type="angular" -%}
-<cl-image public-id="steve.jpg" ></cl-image>
+<cl-image public-id="steve.jpg"></cl-image>
 
 {%- language name=".Net", type="net" -%}
 cloudinary.Api.UrlImgUp.BuildImageTag("steve.jpg")
