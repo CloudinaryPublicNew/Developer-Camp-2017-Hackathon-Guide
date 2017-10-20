@@ -4,7 +4,6 @@
 
 By
 [Meir Feinberg](https://cloudinary.com/blog/author/meir_feinberg)
-
 <time datetime="2017-10-19">Oct 19, 2017</time>
 
 * [Image Manipulation](https://cloudinary.com/blog/tag/Image-Manipulation)
@@ -17,12 +16,7 @@ By
 * [Image-management](https://cloudinary.com/blog/tag/Image-management)
 * [Image Optimization](https://cloudinary.com/blog/tag/Image-optimization)
 
-[](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#)
 
-* <fb:like href="https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition" layout="button_count" share="true" show_faces="false" width="100" class=" fb_iframe_widget" fb-xfbml-state="rendered" fb-iframe-plugin-query="app_id=&amp;container_width=0&amp;href=https%3A%2F%2Fcloudinary.com%2Fblog%2Fhow_to_automatically_tag_images_with_amazon_rekognition&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=false&amp;width=100"><span style="vertical-align: bottom; width: 106px; height: 20px;"><iframe name="f266365b04dbfc8" width="100px" height="1000px" frameborder="0" allowtransparency="true" allowfullscreen="true" scrolling="no" title="fb:like Facebook Social Plugin" src="https://www.facebook.com/plugins/like.php?app_id=&amp;channel=https%3A%2F%2Fstaticxx.facebook.com%2Fconnect%2Fxd_arbiter%2Fr%2FhsBwMj6iLmk.js%3Fversion%3D42%23cb%3Df85d368bd7a3d8%26domain%3Dcloudinary.com%26origin%3Dhttps%253A%252F%252Fcloudinary.com%252Ff138aa05b64dccc%26relation%3Dparent.parent&amp;container_width=0&amp;href=https%3A%2F%2Fcloudinary.com%2Fblog%2Fhow_to_automatically_tag_images_with_amazon_rekognition&amp;layout=button_count&amp;locale=en_US&amp;sdk=joey&amp;share=true&amp;show_faces=false&amp;width=100" style="border: none; visibility: visible; width: 106px; height: 20px;" class=""></iframe></span></fb:like>
-* <iframe id="twitter-widget-1" scrolling="no" frameborder="0" allowtransparency="true" class="twitter-share-button twitter-share-button-rendered twitter-tweet-button" title="Twitter Tweet Button" src="https://platform.twitter.com/widgets/tweet_button.82c7dfc5ca6196724781971f8af5eca4.en.html#dnt=false&id=twitter-widget-1&lang=en&original_referer=https%3A%2F%2Fcloudinary.com%2Fblog%2Fhow_to_automatically_tag_images_with_amazon_rekognition&size=m&text=How%20to%20automatically%20tag%20images%20with%20Amazon%20Rekognition%20&time=1508504058575&type=share&url=https%3A%2F%2Fcloudinary.com%2Fblog%2Fhow_to_automatically_tag_images_with_amazon_rekognition&via=cloudinary" style="position: static; visibility: visible; width: 61px; height: 20px;" data-url="https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition"></iframe>
-* <iframe ng-non-bindable="" frameborder="0" hspace="0" marginheight="0" marginwidth="0" scrolling="no" style="position: static; top: 0px; width: 32px; margin: 0px; border-style: none; left: 0px; visibility: visible; height: 20px;" tabindex="0" vspace="0" width="100%" id="I0_1508504058327" name="I0_1508504058327" src="https://apis.google.com/u/0/se/0/_/+1/fastbutton?usegapi=1&size=medium&origin=https%3A%2F%2Fcloudinary.com&url=https%3A%2F%2Fcloudinary.com%2Fblog%2Fhow_to_automatically_tag_images_with_amazon_rekognition&gsrc=3p&jsh=m%3B%2F_%2Fscs%2Fapps-static%2F_%2Fjs%2Fk%3Doz.gapi.en.z1UMQFdmbQ0.O%2Fm%3D__features__%2Fam%3DEQ%2Frt%3Dj%2Fd%3D1%2Frs%3DAGLTcCMeWDxUSrYNTnlk-59Cmw_90jynTw#_methods=onPlusOne%2C_ready%2C_close%2C_open%2C_resizeMe%2C_renderstart%2Concircled%2Cdrefresh%2Cerefresh%2Conload&id=I0_1508504058327&_gfid=I0_1508504058327&parent=https%3A%2F%2Fcloudinary.com&pfname=&rpctoken=37976267" data-gapiattached="true" title="G+"></iframe>
-* [inShare](javascript:void(0);)10
 
 ![Analyze and auto tag images with Amazon Rekognition](https://res.cloudinary.com/demo/image/upload/c_fill,w_770/dpr_2.0/Rekognition_tagging_blog.jpg)
 
@@ -34,8 +28,6 @@ Analyzing the contents of a photograph would be a huge time sink if performed ma
 
 Cloudinary has integrated two Amazon Rekognition add-ons into its image management and manipulation pipeline: the [Amazon Rekognition Auto Tagging](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#aws_rekognition_categorization) add-on and the [Amazon Rekognition Celebrity Detection](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#aws_rekognition_celebrity_detection) add-on.
 
-col 1                                                                                                                                                                                                                                                                                                                                                               
---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------
 Customers are increasingly looking for innovative ways to generate more data around their media assets to derive actionable business insights. By using Amazon Rekognition, Cloudinary is bringing this technology closer to its clients so they can build their own unique experience.
 
 _- Ranju Das, Director of Amazon Rekognition, Amazon Web Services, Inc._ 
@@ -48,12 +40,56 @@ For example, uploading the following picture of a puppy to Cloudinary and reques
 
 [Ruby](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#api_example_1)[PHP](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#api_example_1)[Python](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#api_example_1)[Node.js](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#api_example_1)[Java](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#api_example_1)[All](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#api_example_1)
 
-Ruby:
+{% codetabs name="URL", type="url" -%}
+https://res.cloudinary.com/demo/image/upload/steve.jpg
 
+{%- language name="Ruby", type="ruby" -%}
 <pre>
 Cloudinary::Uploader.upload("cute_puppy.jpg", 
   :categorization => "aws_rek_tagging")
 </pre>
+
+
+
+{%- language name="PHP", type="php" -%}
+<pre>
+\Cloudinary\Uploader::upload("cute_puppy.jpg", 
+  array("categorization" => "aws_rek_tagging"));
+</pre>
+
+
+{%- language name="Python", type="python" -%}
+<pre>
+cloudinary.uploader.upload("cute_puppy.jpg",
+  categorization = "aws_rek_tagging")
+</pre>
+
+
+{%- language name="Node.js", type="node" -%}
+<pre>
+cloudinary.v2.uploader.upload("cute_puppy.jpg", 
+  {categorization: "aws_rek_tagging"},
+  function(error, result){console.log(result);});
+</pre>
+
+
+{%- language name="Java", type="java" -%}
+<pre>
+cloudinary.uploader().upload("cute_puppy.jpg", ObjectUtils.asMap(
+  "categorization", "aws_rek_tagging"));
+</pre>
+
+
+
+
+{%- language name="All", type="all" -%}
+
+Ruby:
+<pre>
+Cloudinary::Uploader.upload("cute_puppy.jpg", 
+  :categorization => "aws_rek_tagging")
+</pre>
+
 
 PHP:
 
@@ -83,6 +119,11 @@ Java:
 cloudinary.uploader().upload("cute_puppy.jpg", ObjectUtils.asMap(
   "categorization", "aws_rek_tagging"));
 </pre>
+
+
+
+{% endcodetabs -%}
+
 
 [URL](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#image_of_a_cute_puppy)[Ruby](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#image_of_a_cute_puppy)[PHP](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#image_of_a_cute_puppy)[Python](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#image_of_a_cute_puppy)[Node.js](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#image_of_a_cute_puppy)[Java](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#image_of_a_cute_puppy)[JS](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#image_of_a_cute_puppy)[jQuery](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#image_of_a_cute_puppy)[React](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#image_of_a_cute_puppy)[Angular](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#image_of_a_cute_puppy)[.Net](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#image_of_a_cute_puppy)[Android](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#image_of_a_cute_puppy)[All](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#image_of_a_cute_puppy)
 
