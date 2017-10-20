@@ -37,9 +37,7 @@ The Amazon Rekognition Auto Tagging add-on can automatically identify what's in 
 For example, uploading the following picture of a puppy to Cloudinary and requesting categorization:
 
 
-{% codetabs -%}
-
-{%- language name="Ruby", type="ruby" -%}
+{% codetabs name="Ruby", type="ruby" -%}
 
 Cloudinary::Uploader.upload("cute_puppy.jpg", 
   :categorization => "aws_rek_tagging")
