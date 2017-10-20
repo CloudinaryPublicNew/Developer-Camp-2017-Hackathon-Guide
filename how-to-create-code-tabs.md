@@ -1,15 +1,5 @@
 This is a code block with tabs for each languages:
 
-{% codetabs name="Python", type="py" -%}
-msg = "Hello World"
-print msg
-{%- language name="JavaScript", type="js" -%}
-var msg = "Hello World";
-console.log(msg);
-{%- language name="HTML", type="html" -%}
-<b>Hello World</b>
-{%- endcodetabs %}
-
 
 {% codetabs name="URL", type="url" -%}
 https://res.cloudinary.com/demo/image/upload/steve.jpg
@@ -22,7 +12,6 @@ cl_image_tag("steve.jpg")
 
 {%- language name="Python", type="python" -%}
 CloudinaryImage("steve.jpg").image()
-
 
 {%- language name="Node.js", type="node" -%}
 cloudinary.image("steve.jpg")
@@ -53,5 +42,4 @@ MediaManager.get().url().generate("steve.jpg")
 
 {%- language name="iOS", type="ios" -%}
 cloudinary.createUrl().generate("sample.jpg")
-
 {%- endcodetabs %}
