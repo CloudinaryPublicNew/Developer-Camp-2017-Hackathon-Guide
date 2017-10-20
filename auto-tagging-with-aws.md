@@ -20,7 +20,6 @@ By
 
 ![Analyze and auto tag images with Amazon Rekognition](https://res.cloudinary.com/demo/image/upload/c_fill,w_770/dpr_2.0/Rekognition_tagging_blog.jpg)
 
-[](https://res.cloudinary.com/demo/image/upload/v1502190887/Rekognition_tagging_blog.jpg)
 
 Knowledge is power. And if you allow your users to upload images, you also probably want to better understand what their images contain. Whether a photo is of a building, people, animals, celebrities, or a product, image processing and analysis can assist in further comprehension. The benefits of this knowledge can go beyond "merely" categorizing your content and making your image library searchable: drawing insights from user generated content can be very useful! What better way to learn more about your users than to analyze the images they upload and find out what they care about and then have the ability to display relevant content to them according to their interests or even match them with other users that share similar interests.
 
@@ -38,46 +37,41 @@ The Amazon Rekognition Auto Tagging add-on can automatically identify what's in 
 
 For example, uploading the following picture of a puppy to Cloudinary and requesting categorization:
 
-[Ruby](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#api_example_1)[PHP](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#api_example_1)[Python](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#api_example_1)[Node.js](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#api_example_1)[Java](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#api_example_1)[All](https://cloudinary.com/blog/how_to_automatically_tag_images_with_amazon_rekognition#api_example_1)
 
-{% codetabs name="URL", type="url" -%}
-https://res.cloudinary.com/demo/image/upload/steve.jpg
+{% codetabs -%}
 
 {%- language name="Ruby", type="ruby" -%}
-<pre>
+
 Cloudinary::Uploader.upload("cute_puppy.jpg", 
   :categorization => "aws_rek_tagging")
-</pre>
-
-
-
+  
 {%- language name="PHP", type="php" -%}
-<pre>
+
 \Cloudinary\Uploader::upload("cute_puppy.jpg", 
   array("categorization" => "aws_rek_tagging"));
-</pre>
+
 
 
 {%- language name="Python", type="python" -%}
-<pre>
+
 cloudinary.uploader.upload("cute_puppy.jpg",
   categorization = "aws_rek_tagging")
-</pre>
+
 
 
 {%- language name="Node.js", type="node" -%}
-<pre>
+
 cloudinary.v2.uploader.upload("cute_puppy.jpg", 
   {categorization: "aws_rek_tagging"},
   function(error, result){console.log(result);});
-</pre>
+
 
 
 {%- language name="Java", type="java" -%}
-<pre>
+
 cloudinary.uploader().upload("cute_puppy.jpg", ObjectUtils.asMap(
   "categorization", "aws_rek_tagging"));
-</pre>
+
 
 
 
@@ -85,42 +79,38 @@ cloudinary.uploader().upload("cute_puppy.jpg", ObjectUtils.asMap(
 {%- language name="All", type="all" -%}
 
 Ruby:
-<pre>
+
 Cloudinary::Uploader.upload("cute_puppy.jpg", 
   :categorization => "aws_rek_tagging")
-</pre>
+
 
 
 PHP:
 
-<pre>
+
 \Cloudinary\Uploader::upload("cute_puppy.jpg", 
   array("categorization" => "aws_rek_tagging"));
-</pre>
+
 
 Python:
 
-<pre>
+
 cloudinary.uploader.upload("cute_puppy.jpg",
   categorization = "aws_rek_tagging")
-</pre>
+
 
 Node.js:
 
-<pre>
+
 cloudinary.v2.uploader.upload("cute_puppy.jpg", 
   {categorization: "aws_rek_tagging"},
   function(error, result){console.log(result);});
-</pre>
+
 
 Java:
 
-<pre>
 cloudinary.uploader().upload("cute_puppy.jpg", ObjectUtils.asMap(
   "categorization", "aws_rek_tagging"));
-</pre>
-
-
 
 {% endcodetabs -%}
 
