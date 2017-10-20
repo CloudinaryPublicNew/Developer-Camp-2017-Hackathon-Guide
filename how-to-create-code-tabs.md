@@ -40,3 +40,13 @@ MediaManager.get().url().generate("steve.jpg")
 {%- language name="iOS", type="ios" -%}
 cloudinary.createUrl().generate("steve.jpg")
 {%- endcodetabs %}
+
+
+
+#### This is some ES 6 code, you can also see the ES 5 output:
+
+{% es6 -%}
+import {test} from './test';
+
+let myVar = 'test';
+{%- endes6 %}
