@@ -4,7 +4,7 @@
     "sharing": {
             "facebook": true,
             "twitter": true,
-            "google": false,
+            "google": true,
             "weibo": false,
             "instapaper": false,
             "vk": false,
