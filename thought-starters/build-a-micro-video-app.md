@@ -11,7 +11,7 @@ With the exploding popularity of micro video platforms like Vine and Instagram v
 
 Could you build a better app?  
 
-Cloudinary's uploader and video apis allow you to create and manipulate video on the fly simply by adding a few parameters to the url:
+Cloudinary's [video uploade](https://cloudinary.com/documentation/upload_videos)r and [video APIs](https://cloudinary.com/documentation/video_manipulation_and_delivery) allow you to create and manipulate video on the fly simply by adding a few parameters to the url:
 
 [http://res.cloudinary.com/de-demo/video/upload/so_2.25,du_1,h_600,e_loop/l_video:cherries-open,e_reverse,fl_splice,so_2.25,du_1,h_600/fl_layer_apply/l_text:helvetica_18_bold:%23CloudinaryRe-Invent,co_white/e_outline:2,co_black/fl_layer_apply,g_south,y_20/cherries-open.gif](http://res.cloudinary.com/de-demo/video/upload/so_2.25,du_1,h_600,e_loop/l_video:cherries-open,e_reverse,fl_splice,so_2.25,du_1,h_600/fl_layer_apply/l_text:helvetica_18_bold:%23CloudinaryRe-Invent,co_white/e_outline:2,co_black/fl_layer_apply,g_south,y_20/cherries-open.gif)
 
