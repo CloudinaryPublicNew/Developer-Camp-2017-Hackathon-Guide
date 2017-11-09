@@ -4,8 +4,10 @@
 
 * [Challenge and Prizes](README.md)
 * [Developer Survey](/hacker-survey.md)
+* [How to Win A Hackathon](hacker-survey/how-to-win-a-hackathon.md)
 
 ## Thought Starters
+
 * [Micro Video Sharing App](thought-starters/build-a-micro-video-app.md)
 * [Music Discovery Service](thought-starters/build-a-music-discovery-service.md)
 * [Multi-User Sing Along ](thought-starters/multi-user-sing-along.md)
@@ -14,6 +16,7 @@
 ## Learn, Code and Recipes
 
 ## Audio and Video
+
 * [Micro Video Recipe](audio-and-video/micro-video-recipe.md)
 * [Video Transcoding](audio-and-video/video-transcoding.md)
 * [HTML5 Video Player](audio-and-video/html-5-video-player.md)
