@@ -3,8 +3,7 @@
 
 <div style="height:600px; float: left">{% video %}http://res.cloudinary.com/de-demo/video/upload/cherries-open.mov{% endvideo %}</div>
 
-![](http://res.cloudinary.com/de-demo/video/upload/so_2.25,du_1,h_600,e_loop/l_video:cherries-open,e_reverse,fl_splice,so_2.25,du_1,h_600/fl_layer_apply/l_text:helvetica_18_bold:%23CloudinaryRe-Invent,co_white/e_outline:2,co_black/fl_layer_apply,g_south,y_20/cherries-open.gif)
-
+![](http://res.cloudinary.com/de-demo/video/upload/so_2.25,du_1,h_600,e_loop/l_video:cherries-open,e_reverse,fl_splice,so_2.25,du_1,h_600/fl_layer_apply/l_text:helvetica_28_bold:%23VideoFun!,co_rgb:009EFF/e_outline:2,co_rgb:424144/fl_layer_apply,g_south,y_20/l_cloudinary_logo,g_north,c_scale,w_0.35/cherries-open.gif)
 
 
 With the exploding popularity of micro video platforms like Vine and Instagram video; These micro videos are becoming increasingly popular, user will have the need to create native content between 2-15 seconds to be successful on these platforms.
