@@ -1,7 +1,7 @@
 {
-    "plugins": [ "theme-api" ,"codetabs", "es6tabs","sharing"],
+    "plugins": [ "theme-api" ,"html5-video","codepen","youtube","sharing"],
     "pluginsConfig": {
-    "sharing": {
+        "sharing": {
             "facebook": true,
             "twitter": true,
             "google": true,
