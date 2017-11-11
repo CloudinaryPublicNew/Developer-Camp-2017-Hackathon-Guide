@@ -34,7 +34,7 @@ Enter our [survey](//hacker-survey.md) and get a chance to win a drone or a Goog
 
 Play with your selfie. Win some swag.  
 Learn how to hack the Cloudinary URL in our photo booth.  
-Share your best image manipulations on [PhotoBooth-Challenge.com](PhotoBooth-Challenge.com)
+Share your best image manipulations on [PhotoBooth-Challenge.com](http://www.photobooth-challenge.com)
 
 ![](https://res.cloudinary.com/de-demo/image/upload/t_logo/fl_relative,l_fedora,w_0.35,x_-0.1,y_-0.35/fl_relative,l_stash,w_0.35,x_-0.05,y_0.044/farm-peel) 
 
