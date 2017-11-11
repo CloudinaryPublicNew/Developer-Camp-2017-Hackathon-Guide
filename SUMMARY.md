@@ -9,6 +9,7 @@
 ## Thought Starters
 
 * [Micro Video Sharing App](thought-starters/build-a-micro-video-app.md)
+* [Next Generation Commerce](thought-starters/next-generation-commerce.md)
 * [Music Discovery Service](thought-starters/build-a-music-discovery-service.md)
 * [Multi-User Sing Along ](thought-starters/multi-user-sing-along.md)
 * [Cover Art & Fan Pages](thought-starters/build-styled-fan-pages-from-artist-photos.md)
