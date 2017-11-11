@@ -1,5 +1,5 @@
 #Next Generation Ecommerce: 
-![](http://res.cloudinary.com/de-demo/image/upload/c_scale,w_800/v1510419060/vr-next-gen.jpg)
+![](http://res.cloudinary.com/de-demo/image/upload/c_fit,w_600/c_fill,g_south_west,l_500px_logo,w_100,x_10,y_10/v1510419060/vr-next-gen.jpg)
 
 Build a service for ecommerce-based websites and platforms. These platforms should be able to use your service to provide [beautifully made widgets](https://cloudydesk.com/face/) that allow users to [upload photos of themselves and match product items](https://scotch.io/tutorials/overlay-glassesmasks-on-avatars-with-vuejs-and-cloudinary) such as hats, eyeglasses, ear rings, e.t.c to these pictures. 
 
